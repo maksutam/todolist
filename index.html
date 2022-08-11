@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo - Список задач</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+      
+        <header class="header">
+        <a href="#" title="Обновить страницу"><h1 class="header__title">ToDo список</h1></a>
+        <h3 class="header__subtitle">список задач на сегодня</h3>
+        </header>
+    <main class="main">
+        
+        <form id="form">
+            <div class="form">
+                <p class="form__text">Добавить новую задачу:</p>
+                <input type="text" class="form__control" id="taskInput" placeholder="Здесь введите текст задачи..." maxlength="30" required>
+                <button type="submit" class="form__btn">Добавить</button>
+            </div>
+        </form>
+       
+
+        <div class="tasks">	
+            <!-- Задачи - начало -->
+
+                     <div class="tasks__list" id="tasksList">
+                        
+                        <!-- Список пуст - начало			  -->
+					<!-- <div class="empty-list list-group-item none" id="emptyList">
+		<img class="empty-list__img" src="img/empty.png">
+		<div class="empty-list__desc">
+		<h3 class="empty-list__text">список дел пуст! ура!</h3>
+		</div>
+	</div> -->
+            <!-- Список пуст - конец -->
+
+                        <!-- <div class="sticker list-group-item">
+                            <div class="sticker__header sticker__header-blue">
+                                <p class="task__number">1.</p>
+                                <div class="emoji emoji-happy"></div>
+                            
+                            </div>
+                            <p class="task-title task-done">
+                                купить кошачий корм
+                            </p>
+                            <div class="sticker__icons">
+                               <div type="button" class="sticker__icon sticker__icon-green" data-action="done"></div>
+                               <div type="button" class="sticker__icon tip__trash sticker__icon-trash" data-action="delete"></div> 
+                            </div>
+                        </div>
+
+                        <div class="sticker list-group-item">
+                            <div class="sticker__header sticker__header-red">
+                                <p class="task__number">2.</p>
+                                <div class="emoji emoji-sad"></div>
+                            
+                            </div>
+                            <p class="task-title">
+                                помыть посуду
+                            </p>
+                            <div class="sticker__icons">
+                               <div type="button" class="sticker__icon tip__tick sticker__icon-red" data-action="done"></div>
+                               <div type="button" class="sticker__icon tip__trash sticker__icon-trash" data-action="delete"></div> 
+                            </div>
+                        </div> -->
+                
+                    </div> 
+		    <!-- Задачи - конец     -->
+        </div>
+        
+    </main>
+</div>
+
+<div class="footer"> 
+    <p>Максута Марина </p>    
+    |
+    <p>2022</p>
+    |
+    <p>maksutam@gmail.com</p>    
+</div>   
+
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
